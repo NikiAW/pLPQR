@@ -1,0 +1,16 @@
+Package: pLPQR
+Type: Package
+Title: Generalized unbiased estimating equations in penalized parametric quantile regression for longitudinal data
+Version: 1.0
+Date: 2025-11-09
+Authors@R: person("Zhen", "Yu", role = c("aut", "cre"), email = "amy.yuzhen@foxmail.com")
+Description: The pLPQR package implements a comprehensive framework for penalized longitudinal parametric quantile regression through generalized unbiased estimating equations. This approach addresses a critical methodological gap by seamlessly integrating robust longitudinal modeling with flexible quantile regression techniques. The framework combines the advantages of unbiased estimating equations—which ensure accurate, valid, and efficient parameter estimation—with parametric quantile modeling that enhances flexibility, interpretability, and captures dynamic covariate effects across the quantile spectrum. The implementation employs induced smoothing for computational stability and demonstrates superior performance compared to existing approaches, particularly in handling complex longitudinal data structures.
+License: GPL (>= 2)
+Suggests: tinytest
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: 
+    Rcpp (>= 1.0.8)
+LinkingTo: 
+    Rcpp, 
+    RcppArmadillo
